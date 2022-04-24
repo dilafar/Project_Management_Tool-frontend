@@ -64,10 +64,10 @@ const AdminNavbar = () => {
   
     useEffect(() => {
       const token = user?.token;
-  
+      console.log(user.result);
       if (token) {
         const decodedToken = decode(token);
-  
+        console.log(decodedToken);
         if (decodedToken.exp * 1000 < new Date().getTime()) logout();
       }
   
