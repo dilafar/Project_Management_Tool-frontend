@@ -114,6 +114,14 @@ const AdminSidebar = ({mode,setMode}) => {
           </ListItemButton>
         </ListItem>
         <ListItem disablePadding>
+          <ListItemButton  component={Link} to="/admin/research">
+            <ListItemIcon>
+              <Settings />
+            </ListItemIcon>
+            <ListItemText primary="Research Template" />
+          </ListItemButton>
+        </ListItem>
+        <ListItem disablePadding>
           <ListItemButton  component={Link} to="/admin/enquiry">
             <ListItemIcon>
               <AccountBox />
