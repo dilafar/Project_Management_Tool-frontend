@@ -100,7 +100,7 @@ import {
               <ListItemIcon>
                 <Person />
               </ListItemIcon>
-              <ListItemText primary="Assignments" />
+              <ListItemText primary="Research Template" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
